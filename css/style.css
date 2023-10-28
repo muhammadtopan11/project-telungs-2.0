@@ -48,13 +48,11 @@ section {
 }
 
 header {
-  height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url("asset/background-landing.jpg");  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* background-color: #ebece7;
-  box-shadow: -1px 2px 4px gray; */
+  /* height: 100vh; */
+  background-color: #ebece7;
+  box-shadow: -1px 2px 4px gray;
+  position: fixed;
+  width: 100%;
 }
 
 .logo h1 {
@@ -83,6 +81,10 @@ nav ul li {
   padding-left: 25px;
 }
 
+nav ul li a{
+    color: #533e86;
+}
+
 nav ul li a:hover {
   background-color: #533e86;
   border-radius: 999px;
@@ -93,4 +95,53 @@ nav ul li a:hover {
 
 nav box-icon {
   display: none;
+}
+
+main{
+    display: flex;
+    width: 80%;
+    margin-inline: auto;
+    align-items: center;
+    padding: 20px 0;
+    padding-top: 80px;
+    /* background-color: aqua; */
+}
+
+div.content .content-description h1{
+    font-size: 4.5rem;
+    color: #533E86;
+}
+
+div.content .content-description p{
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2.1rem;
+    color: #533E86;
+}
+
+main .content .content-description button{
+    padding: .8rem 2.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-color: #533E86;
+    cursor: pointer;
+    transition: all .15s ease-in;
+    box-shadow: 1px 4px 3px grey;
+}
+
+main .content .content-description button:hover {
+    border: 3px solid #533E86;
+    color: #533E86;
+    background-color: transparent;
+}
+
+main .content-img img{
+    margin-left: 35px;
+    height: 350px;
 }

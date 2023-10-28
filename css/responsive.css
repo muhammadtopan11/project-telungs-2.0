@@ -1,4 +1,6 @@
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1126px){
+    
+    
     nav{
         flex-direction: column;
         position: relative;
@@ -30,5 +32,26 @@
     nav ul li a{
         color: #222;
         background-color: none;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        text-align:center;
+    }
+
+    main .content-img img{
+        height: 400px;
+        padding: 25px;
+    }
+
+    div.content .content-description h1{
+        text-align: center;
+    }
+
+    main .content .content-description button{
+        padding: 10px 100px;
+        font-size: 1.2rem;
+        box-shadow: 1px 5px 3px grey;
+        
     }
 }
