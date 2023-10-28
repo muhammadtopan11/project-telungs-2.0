@@ -120,7 +120,7 @@ div.content .content-description p{
 }
 
 main .content .content-description button{
-    padding: .8rem 2.5rem;
+    padding: 1.2rem 3rem;
     margin-block-start: 1rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -143,5 +143,52 @@ main .content .content-description button:hover {
 
 main .content-img img{
     margin-left: 35px;
-    height: 350px;
+    height: 600px;
+}
+
+/* About */
+
+section.product {
+    background-color: #533E86;
+    margin: 0;
+    padding: 0;
+}
+
+section.product h1{
+    size: 5rem;
+    color: #533E86;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    background-color: white;
+    line-height: 1.6;
+    box-shadow: 0px 2px 3px grey;
+}
+
+div.row{
+    display: flex;
+}
+
+section.product .row .product-cosmetic-img img,
+section.product .row .product-tea-img img{
+    width: 350px;
+}
+
+section.product .row .product-cosmetic-description,
+section.product .row .product-tea-description,
+section.product .row .product-pewangi-description{
+    color: white;
+    flex-basis: 65%;
+}
+
+section.product .row .product-pewangi-img img{
+    width: 200px;
+    
+}
+
+section.product .row .product-pewangi-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telung's</title>
+    <link rel="icon" href="asset/LOGO-ICON.png">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -16,19 +17,18 @@
                 <h1>TeLung's</h1>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Product</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Product</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <box-icon id="menu" name='menu' color="#533E86" size="lg"></box-icon>
         </nav>
     </header>
 
-    <main>
+    <main id="about">
         <div class="content">
             <div class="content-description">
-                <h1>What Is TeLung's?</h1>
+                <h1>What Is TeLung's ?</h1>
                 <p>Telung's adalah produk berbahan dasar ekstraksi bunga telung yang dapat dijadikan berbagai macam produk. Bunga telung mengandung senyawa kimia seperti tanin, karbohidrat, saponin, triterpenoid, fenol, dan flavonoid yang dapat meningkatkan antioksidan dan berfungsi sebagai pewarna alami pada produk makanan dan kosmetik.</p>
                 <button>Lebih Lanjut</button>
             </div>
@@ -37,6 +37,39 @@
             <img src="asset/LOGO-TEELUNGS-HD.png" alt="logo telungs">
         </div>
     </main>
+
+    <section class="product"  id="product">
+        <h1 class="product-title">TeLung's Product</h1>
+        <div class="row">
+            <div class="product-cosmetic-img">
+                <img src="asset/packaging-botol.png" alt="botol cosmetic">
+            </div>
+            <div class="product-cosmetic-description">
+                <h2>Cosmetics TeLung's</h2>
+                <p>Kosmetik adalah salah satu produck yang bisa di buat dari bahan dasar ekstraksi bunga telung karena kandungan senyawa yang dapat membantu meremajakan kulit, memberikan kelembapan, dan mengurangi kerutan.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="product-tea-img">
+                <img src="asset/teh-kemasan.png" alt="Teh kemasan">
+            </div>
+            <div class="product-tea-description">
+                <h2>Beverages TeLung's</h2>
+                <p>Beberapa manfaat daun telang tea adalah meningkatkan memori otak, mengurangi stres, meningkatkan suasana hati, membantu meningkatkan kesehatan mata, membantu meredakan asma, antioksidan.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="product-pewangi-img">
+                <img src="asset/botol-pewangi.png" alt="botol cosmetic">
+            </div>
+            <div class="product-pewangi-description">
+                <h2>Aromatherapy TeLung's</h2>
+                <p>Sari bunga telang dapat diolah menjadi aromaterapi yang bermanfaat untuk kesehatan mental dan fisik. Aroma dari minyak essensial bunga telang dapat membantu mengatasi insomnia atau kurang tidur.</p>
+            </div>
+        </div>
+    </section>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="js/app.js"></script>
 </body>
