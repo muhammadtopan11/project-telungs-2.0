@@ -255,9 +255,5 @@ footer div.connect{
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  right: 0;
-  margin: 10px;
-  margin-top: 50px;
-  padding-right: 50px;
+  margin: auto;
 }

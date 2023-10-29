@@ -75,6 +75,27 @@
 
     footer div.logo-footer {
         display: none;
-      }
+    }
 
+}
+
+@media only screen and (max-width:400px){
+
+    article.product{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    footer{
+        flex-direction: column
+    }
+
+    footer div.logo-footer {
+        display: none;
+    }
+
+    footer div.connect{
+        padding: 20px 0;
+    }
 }
