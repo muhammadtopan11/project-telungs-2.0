@@ -81,8 +81,8 @@ nav ul li {
   padding-left: 25px;
 }
 
-nav ul li a{
-    color: #533e86;
+nav ul li a {
+  color: #533e86;
 }
 
 nav ul li a:hover {
@@ -97,101 +97,167 @@ nav box-icon {
   display: none;
 }
 
-main{
-    display: flex;
-    width: 80%;
-    margin-inline: auto;
-    align-items: center;
-    padding: 20px 0;
-    padding-top: 80px;
-    /* background-color: aqua; */
+main {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+  align-items: center;
+  padding: 20px 0;
+  padding-top: 80px;
+  /* background-color: aqua; */
 }
 
-div.content .content-description h1{
-    font-size: 4.5rem;
-    color: #533E86;
+div.content .content-description h1 {
+  font-size: 4.5rem;
+  color: #533e86;
 }
 
-div.content .content-description p{
-    font-size: 1.5rem;
-    text-align: justify;
-    line-height: 2.1rem;
-    color: #533E86;
+div.content .content-description p {
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2.1rem;
+  color: #533e86;
 }
 
-main .content .content-description button{
-    padding: 1.2rem 3rem;
-    margin-block-start: 1rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    border: 3px solid transparent;
-    border-radius: 999px;
-    background-color: #533E86;
-    cursor: pointer;
-    transition: all .15s ease-in;
-    box-shadow: 1px 4px 3px grey;
+main .content .content-description button {
+  padding: 1.2rem 3rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: #533e86;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+  box-shadow: 1px 4px 3px grey;
 }
 
 main .content .content-description button:hover {
-    border: 3px solid #533E86;
-    color: #533E86;
-    background-color: transparent;
+  border: 3px solid #533e86;
+  color: #533e86;
+  background-color: transparent;
 }
 
-main .content-img img{
-    margin-left: 35px;
-    height: 600px;
+main .content-img img {
+  margin-left: 35px;
+  height: 600px;
 }
 
 /* About */
 
 article.product {
-    background-color: #533E86;
-    margin: 0;
-    padding: 0;
+  background-color: #533e86;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.3);
 }
 
-article.product h1{
-    size: 5rem;
-    color: #533E86;
-    text-align: center;
-    margin-top: 50px;
-    padding-bottom: 15px;
-    background-color: white;
-    line-height: 1.6;
-    box-shadow: 0px 2px 3px grey;
+article.product h1 {
+  size: 5rem;
+  color: #533e86;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  background-color: white;
+  line-height: 1.6;
+  box-shadow: 0px 2px 3px grey;
 }
 
-div.row{
-    display: flex;
+div.row {
+  display: flex;
 }
 
 article.product .row .product-cosmetic-img img,
-article.product .row .product-tea-img img{
-    width: 350px;
-    flex-basis: 50%;
+article.product .row .product-tea-img img {
+  width: 350px;
+  flex-basis: 50%;
 }
 
 article.product .row .product-cosmetic-description,
 article.product .row .product-tea-description,
-article.product .row .product-pewangi-description{
-    color: white;
-    flex-basis: 65%;
+article.product .row .product-pewangi-description {
+  color: white;
+  flex-basis: 65%;
 }
 
-article.product .row .product-pewangi-img img{
-    width: 200px;
-    margin: 0 50px;
-    flex-basis: 50%;
-    
+article.product .row .product-pewangi-img img {
+  width: 200px;
+  margin: 0 50px;
+  flex-basis: 50%;
 }
 
-article.product .row .product-pewangi-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+article.product .row .product-pewangi-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
+
+body aside .social-media {
+  height: 100%;
+  display: flex;
+}
+
+body aside .social-media ul {
+  padding: 1.5rem 1rem;
+  margin: auto;
+  background-color: #ebece7;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.61);
+}
+
+body aside .social-media li {
+  list-style-type: none;
+  font-size: 3rem;
+}
+
+footer{
+  display: flex;
+  background-color: #ebece7;
+  padding: 10px 0;
+}
+
+footer div.logo-footer img{
+  width: 200px;
+  padding: 10px;
+  margin: 0 50px;
+}
+
+footer div.contact{
+  margin-left: 25px;
+  border-left: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+footer div.contact h2{
+  font-size: 20px;
+}
+
+footer div.contact p{
+  font-size: 13px;
+}
+
+footer div.connect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  margin-top: 50px;
+  padding-right: 50px;
 }
