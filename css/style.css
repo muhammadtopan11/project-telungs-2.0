@@ -43,7 +43,7 @@ p {
 }
 
 /* View */
-section {
+article {
   padding: 100px 0;
 }
 
@@ -148,13 +148,13 @@ main .content-img img{
 
 /* About */
 
-section.product {
+article.product {
     background-color: #533E86;
     margin: 0;
     padding: 0;
 }
 
-section.product h1{
+article.product h1{
     size: 5rem;
     color: #533E86;
     text-align: center;
@@ -169,24 +169,27 @@ div.row{
     display: flex;
 }
 
-section.product .row .product-cosmetic-img img,
-section.product .row .product-tea-img img{
+article.product .row .product-cosmetic-img img,
+article.product .row .product-tea-img img{
     width: 350px;
+    flex-basis: 50%;
 }
 
-section.product .row .product-cosmetic-description,
-section.product .row .product-tea-description,
-section.product .row .product-pewangi-description{
+article.product .row .product-cosmetic-description,
+article.product .row .product-tea-description,
+article.product .row .product-pewangi-description{
     color: white;
     flex-basis: 65%;
 }
 
-section.product .row .product-pewangi-img img{
+article.product .row .product-pewangi-img img{
     width: 200px;
+    margin: 0 50px;
+    flex-basis: 50%;
     
 }
 
-section.product .row .product-pewangi-img{
+article.product .row .product-pewangi-img{
     display: block;
     margin-left: auto;
     margin-right: auto;

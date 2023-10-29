@@ -54,4 +54,23 @@
         box-shadow: 1px 5px 3px grey;
         
     }
+
+    section.product{
+        margin-top: 100px;
+    }
+
+    div.row{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    div.row h2{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    div.row p{
+        text-align: justify;
+    }
+
 }
